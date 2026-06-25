@@ -1,6 +1,6 @@
 ---
 - name: ping the server
-  hosts: local
+  hosts: frontend
 
   tasks: #list the tasks
     - name: ping the server
